@@ -1,47 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Builder Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ service  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:400,500,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -62,8 +19,8 @@ a {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif!important;
-  font-weight: normal;
+  font-family: 'Changa', sans-serif;
+  /*font-weight: normal;*/
   color: #888888;
   overflow-x: hidden; 
   background-image: url(../img/background/bg1.jpg);
@@ -159,8 +116,8 @@ ul {
             color: #fff;
             padding: 0px;
             display: inline-block;
-            font-size: 24px;
-            font-weight: 600;    }
+            font-size: 19px; 
+            font-family:   'Cairo', sans-serif }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -2676,9 +2633,8 @@ h6 {
     background: #f8b600;
     padding: 0px 51px;
     color: #202e31;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cairo", sans-serif;
     font-size: 21px;
-    font-weight: 800;
     line-height: 48px;
     border-radius: 0px;
     outline: none !important;
@@ -2687,7 +2643,7 @@ h6 {
     border: 1px solid #ffc107;
     cursor: pointer;
     border-radius: 5px;
-    font-family: "Heebo", sans-serif;
+    /*font-family: "Heebo", sans-serif;*/
     text-transform: uppercase;
     transition: all 300ms linear 0s; }
 
@@ -3104,7 +3060,7 @@ h6 {
         top: 14px; }
     .service-area .single-service .service-content h5 {
       font-size: 20px;
-      font-weight: 500;
+      font-family: 'Cairo', sans-serif;
       color: #202e31;
       margin-bottom: 18px; }
     .service-area .single-service .service-content p {
@@ -3149,8 +3105,7 @@ h6 {
 /*----------------------------------------------------*/
 /* About Area css
 ============================================================================================ */
-.about-area .about-content {
-  padding-left: 110px; }
+.about-area .about-content {}
   @media (min-width: 1199px) and (max-width: 1199px) {
     .about-area .about-content {
       padding-top: 30px;
@@ -3166,7 +3121,7 @@ h6 {
   .about-area .about-content h4 {
         font-size: 42px;
     color: #ffc107;
-    font-family: "Heebo", sans-serif;
+    font-family: 'Cairo', sans-serif;
     margin-bottom: 22px;
     line-height: 40px;
 
@@ -3176,9 +3131,10 @@ h6 {
     font-family: "Roboto", sans-serif;
     color: #202e31;
     margin-bottom: 40px;
-    line-height: 26px;
-    font-weight: 600;
     text-align: right;
+    }
+    .about-area .about-content .main_btn{
+      font-family: 'Cairo', sans-serif;
     }
   .about-area .about-content .main_btn:hover {
     border: 1px solid #f8b600; }
