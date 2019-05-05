@@ -2823,11 +2823,11 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonial-area {
-    background-size: cover;
+        background-size: cover;
     position: relative;
-    background: #777777;
-    opacity: 0.6;
-    padding-bottom: 200px; }
+    background: rgba(119, 119, 119, .7);
+    /* opacity: 0.6; */
+    padding-bottom: 200px }
   .testimonial-area .owl-dots {
     position: absolute;
     left: 50%;
@@ -3368,7 +3368,7 @@ h6 {
 }
 .Pioneer-area{
   padding: 50px 0;
-  background-color: #f5f4f3;
+  background-color: rgba(245, 244, 243, .6);
 }
 .Pioneer-area p{
     font-size: 28px;
