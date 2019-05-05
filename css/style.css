@@ -1361,9 +1361,12 @@ ul {
 .contact-title {
   font-size: 27px;
   font-weight: 600;
-  margin-bottom: 20px;
-  color: #2a2a2a; }
-
+  margin-bottom: 52px;
+  color: #2a2a2a;
+  text-align: center; }
+.form-contact{
+  text-align: right;
+}
 .form-contact label {
   color: #f8b600;
   font-size: 14px; }
@@ -3112,7 +3115,7 @@ h6 {
   .area-heading p {
     font-size: 14px;
     color: #888888; }
-  .area-heading .line:after {
+   .line:after {
     content: '';
     position: absolute;
     width: 20px;
@@ -3121,7 +3124,7 @@ h6 {
     left: 50%;
     transform: translateX(-50%);
     top: -16px; }
-  .area-heading .line:before {
+   .line:before {
     content: '';
     position: absolute;
     width: 100px;
@@ -3348,4 +3351,7 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 .owl-item .item{
   width: max-content;
+}
+.area-padding2{
+  padding: 130px 0 0 0;
 }
