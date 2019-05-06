@@ -187,21 +187,22 @@ ul {
           margin-top: 0px; }
       .header_area .navbar .nav .nav-item:last-child {
         margin-left: 0px; }
-  .header_area + section, .header_area + row, .header_area + div {
-   /* margin-top: 122px; */}
+        
   .header_area.navbar_fixed .main_menu {
     position: fixed;
     width: 100%;
     top: -70px;
     left: 0;
     right: 0;
-    background: rgba(42, 42, 42, 0.7);
+    background: #fff;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-      line-height: 70px; }
+      line-height: 70px;
+      color: #000;
+    }
 
 .top_menu {
   background: #f6f6f6; }
@@ -1438,7 +1439,7 @@ ul {
   margin-bottom: 30px; }
 
 .area-padding {
-  padding: 130px 0; }
+  padding: 40px 0; }
 
 .sample-text-area {
   padding: 100px 0px; }
@@ -2783,7 +2784,7 @@ h6 {
     position: relative;
     background: rgba(119, 119, 119, .7);
     /* opacity: 0.6; */
-    padding-bottom: 200px }
+    padding-bottom: 94px }
   .testimonial-area .owl-dots {
     position: absolute;
     left: 50%;
@@ -3072,12 +3073,14 @@ h6 {
     background: #f6f6f6; }
 
 .area-heading {
-  margin-bottom: 90px;
+  /* margin-bottom: 40px; */
   text-align: center;
-  margin-top: 15px; }
+  margin-top: 20px; }
   .area-heading h3 {
     font-size: 30px;
     color: #202e31;
+    font-family: 'Cairo';
+    margin-bottom: 25px;
     position: relative; }
   .area-heading p {
     font-size: 14px;
@@ -3320,10 +3323,10 @@ h6 {
   width: max-content;
 }
 .area-padding2{
-  padding: 130px 0 0 0;
+  padding: 40px 0 0 0;
 }
 .Pioneer-area{
-  padding: 50px 0;
+  padding: 40px 0;
   background-color: rgba(245, 244, 243, .6);
 }
 .Pioneer-area p{
@@ -3379,3 +3382,121 @@ h6 {
   text-align: right;
   padding: 0 10px;
 }
+
+.padding-none{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  
+}
+
+
+/*Start goup */
+.up{
+    
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 5000;
+  
+  
+}
+.up a{
+  
+      
+  display: table;
+  background: rgb(254, 187, 29);
+  color: #fff;
+  border-radius: 7px;
+  text-decoration: none;
+  
+      
+}
+.up i{
+  display: none;
+  text-align: center;
+  margin: 20px ;
+  
+}
+
+
+
+/*End goup */
+
+.main_btn3{
+  
+  display: inline-block;
+  /* background: #f8b600; */
+  padding: 0px 22px;
+  font-family: "Cairo", sans-serif;
+  font-size: 21px;
+  color: #a2a2a2;
+  line-height: 48px;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 2px solid #999999;
+  cursor: pointer;
+  border-radius: 50%;
+  /* font-family: "Heebo", sans-serif; */
+  text-transform: uppercase;
+  transition: all 300ms linear 0s;
+}
+.main_btn3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.main_btn3 span:after {
+  content: 'Read More';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  font-size: 14px;
+  transition: all 0.8s ease-in-out;
+}
+
+.main_btn3:hover span {
+  padding-right: 80px;
+}
+
+.main_btn3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button:hover{cursor: pointer}
+button {
+  background: transparent; outline: none;
+  position: relative;
+  border: 2px solid #111;
+  padding: 10px 50px;
+  overflow: hidden;
+}
+
+/*button:before (attr data-hover)*/
+button:hover:before{opacity: 1; transform: translate(0,0);}
+button:before{
+  content: attr(data-hover);
+  position: absolute;
+  top: 1.1em; left: 0;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: .8em;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .3s ease-in-out;
+}
+  /*button div (button text before hover)*/
+  button:hover div{opacity: 0; transform: translate(100%,0)}
+  button div{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: .8em;
+    transition: all .3s ease-in-out;
+  }
