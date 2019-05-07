@@ -624,7 +624,8 @@ ul {
         margin-bottom: 8px; } }
   .single-blog:hover .short_details {}
   .single-blog:hover img {
-    transform: scale(1.1); }
+    transform: scale(1.1); 
+    opacity: 0.6}
 
 /* End Blog Area css
 ============================================================================================ */
@@ -1344,6 +1345,7 @@ ul {
   border: 1px solid #f0e9ff;
   border-radius: 5px;
   height: 48px;
+  color: #fff;
   padding-left: 18px;
   font-size: 13px;
   background: transparent; }
@@ -2782,7 +2784,7 @@ h6 {
 .testimonial-area {
         background-size: cover;
     position: relative;
-    background: rgba(119, 119, 119, .7);
+    /*background: rgba(119, 119, 119, .7);*/
     /* opacity: 0.6; */
     padding-bottom: 94px }
   .testimonial-area .owl-dots {
@@ -3029,19 +3031,21 @@ h6 {
 /*----------------------------------------------------*/
 /* Service  Area css
 ============================================================================================ */
-.service-area {
-  background: #f7f7f7; }
+/*.service-area {
+  background: #f7f7f7; }*/
   .service-area .main_btn{
     margin: 50px 0;
   }
   .service-area .single-service {
-    border: 1px solid transparent;
-    background: #fff;
+    /*background-image: url(../img/ser/01.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 400px;
     text-align: center;
+    position: relative;
     padding: 40px 30px 25px;
     transition: all 300ms linear 0s; }
-    .service-area .single-service:hover {
-      border: 1px solid #f8b600; }
     .service-area .single-service .service-icon {
       width: 170px;
       height: 95px;
@@ -3059,10 +3063,14 @@ h6 {
         left: 27px;
         z-index: -1;
         top: 14px; }
+        .service-content{
+          position: relative;
+        }
     .service-area .single-service .service-content h5 {
       font-size: 20px;
+      margin-top: 235px;
       font-family: 'Cairo', sans-serif;
-      color: #202e31;
+      color: #fff;
       margin-bottom: 18px; }
     .service-area .single-service .service-content p {
       line-height: 27px; }
@@ -3090,7 +3098,7 @@ h6 {
     position: absolute;
     width: 20px;
     height: 5px;
-    background: #ffc107;
+    background: #212529;
     left: 50%;
     transform: translateX(-50%);
     top: -16px; }
@@ -3099,7 +3107,7 @@ h6 {
     position: absolute;
     width: 100px;
     height: 1px;
-    background:#f8b600 ;
+    background:#2a2a2a ;
     left: 50%;
     transform: translateX(-50%);
     top: -14px; }
@@ -3332,7 +3340,7 @@ h6 {
 .Pioneer-area p{
     font-size: 28px;
     display: inline-block;
-    margin: 31px;
+    margin: 31px 0;
     font-family: monospace;
     color: #000;
 }
@@ -3357,7 +3365,8 @@ h6 {
 
 .form-edit {
     padding: 30px;
-    background: rgba(42, 42, 42, 0.9);
+    /*background: rgba(42, 42, 42, 0.9);*/
+    position: relative;
     /* opacity: 0.6; */
     border-radius: 10px;
     margin-bottom: 37px;
@@ -3386,7 +3395,6 @@ h6 {
 .padding-none{
   padding-left: 0px!important;
   padding-right: 0px!important;
-  
 }
 
 
@@ -3402,12 +3410,12 @@ h6 {
 }
 .up a{
   
-      
-  display: table;
-  background: rgb(254, 187, 29);
-  color: #fff;
-  border-radius: 7px;
-  text-decoration: none;
+    display: table;
+    border-radius: 50%;
+    background: #5959598f;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
   
       
 }
@@ -3467,13 +3475,18 @@ h6 {
   opacity: 1;
   right: 0;
 }
-button:hover{cursor: pointer}
+button:hover{
+  cursor: pointer;
+  padding: 8px 82px 18px 26px;
+}
 button {
   background: transparent; outline: none;
   position: relative;
-  border: 2px solid #111;
-  padding: 10px 50px;
+  border: 2px solid #fff;
+  padding: 8px 26px;
   overflow: hidden;
+  border-radius: 50%;
+  transition: all .5s ease-in-out;
 }
 
 /*button:before (attr data-hover)*/
@@ -3488,6 +3501,7 @@ button:before{
   font-weight: 800;
   font-size: .8em;
   opacity: 0;
+  color: #fff;
   transform: translate(-100%,0);
   transition: all .3s ease-in-out;
 }
@@ -3499,4 +3513,16 @@ button:before{
     font-weight: 800;
     font-size: .8em;
     transition: all .3s ease-in-out;
+  }
+  .fa-chevron-right:before{
+    color: #fff;
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
   }

@@ -50,7 +50,7 @@
 	============================================================================================ */
 
 	.area-padding {
-		padding: 80px 0;
+		/*padding: 80px 0;*/
 	}
 
 	.area-heading {
@@ -80,7 +80,7 @@
 }
 
 .testimonial-area.area-padding {
-	padding: 80px 0 100px;
+	/*padding: 80px 0 100px;*/
 }
 
 }
@@ -264,14 +264,14 @@
 		width: 300px;
 	}
 	.area-padding {
-		padding: 80px 0 50px;
+		/*padding: 80px 0 50px;*/
 	}
 	.number-content h4 br {
 		display: none;
 	}
 
 	.about-area.area-padding {
-	padding-bottom: 80px;
+	/*padding-bottom: 80px;*/
 }
 
 
