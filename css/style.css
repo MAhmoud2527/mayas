@@ -3543,8 +3543,8 @@ button {
     font-weight: 400;
     font-size: 9px;
     white-space: normal;
-    min-height: 881px;
-    min-width: 1263px;
+    min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
