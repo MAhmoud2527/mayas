@@ -20,7 +20,6 @@ var thumbnailSliderOptions = {
 };
 
 var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
-/* ThumbnailSlider Slider v2015.10.26. Copyright(C) www.menucool.com. All rights reserved. */
 function ThumbnailSlider(a) {
     "use strict";
     if (typeof String.prototype.trim !== "function") String.prototype.trim = function() {
@@ -744,18 +743,6 @@ function ThumbnailSlider(a) {
                 f = 1
             }
             f && this.c()
-        },
-        d: function(d, c) {
-            var b = l.createElement("div");
-            b.id = a.b + d;
-            if (c) b.onclick = c;
-            N && b[t]("touchstart", function(a) {
-                a.preventDefault();
-                a.target.click();
-                eb(a)
-            }, false);
-            b = j[m].appendChild(b);
-            return b
         },
         e: function() {
             S = this.d("-prev", function() {
