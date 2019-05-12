@@ -3478,7 +3478,7 @@ h6 {
   opacity: 1;
   right: 0;
 }
-button:hover{
+#button:hover{
   cursor: pointer;
   padding: 8px 82px 18px 26px;
 }
@@ -3493,8 +3493,8 @@ button {
 }
 
 /*button:before (attr data-hover)*/
-button:hover:before{opacity: 1; transform: translate(0,0);}
-button:before{
+#button:hover:before{opacity: 1; transform: translate(0,0);}
+#button:before{
   content: attr(data-hover);
   position: absolute;
   top: 1.1em; left: 0;
@@ -3509,8 +3509,8 @@ button:before{
   transition: all .3s ease-in-out;
 }
   /*button div (button text before hover)*/
-  button:hover div{opacity: 0; transform: translate(100%,0)}
-  button div{
+  #button:hover div{opacity: 0; transform: translate(100%,0)}
+  #button div{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 800;
@@ -3567,4 +3567,35 @@ button:before{
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
+  }
+
+  /*#more {display: none;}  */
+  .btn-primary{
+        margin: 17px 45%!important;
+        background-color: #ddd!important;
+        border: 1px solid #ddd!important;
+        color: #000
+  }
+  .btn-primary:hover{
+    border: 1px solid #ddd!important;
+    background-color: #ddd!important;
+    color: #000!important;
+    box-shadow:unset!important;
+    outline: none;
+
+  }
+  .btn-primary:focus{
+    border: 1px solid #ddd!important;
+    color: #000!important;
+    background-color: #ddd!important;
+    outline: none;
+    box-shadow:unset!important;
+
+  }  
+  .btn-primary:active{
+    border: 1px solid #ddd!important;
+    color: #000!important;
+    outline: none;
+    box-shadow:unset!important;
+    background-color: #ddd!important;
   }
