@@ -28,6 +28,9 @@
 }
 @media (max-width:1199px){
 
+	.header_area{
+		top: 0;
+	}
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar .nav .nav-item {
@@ -131,6 +134,7 @@
 	}
 	.nav{
 		padding: 0px 0px;
+		text-align: center;
 	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 117px;
@@ -144,6 +148,7 @@
 		display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
+		color: #000;
 	}
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
 		line-height: 40px;
@@ -431,7 +436,8 @@
 	/* Footer Area css
 	============================================================================================ */
 	.footer-area {
-		padding: 70px 0 0;
+		padding: 70px 0 10px 0;
+		text-align: center;
 	}
 	/* End End Footer Area css
 	============================================================================================ */

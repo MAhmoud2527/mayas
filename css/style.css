@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Amiri');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -2634,9 +2634,9 @@ h6 {
 ============================================================================================ */
 .main_btn {
     display: inline-block;
-    background: #f8b600;
+    background: #dee2e6;
     padding: 0px 51px;
-    color: #202e31;
+    color: #212529;
     font-family: "Cairo", sans-serif;
     font-size: 21px;
     line-height: 48px;
@@ -2644,12 +2644,14 @@ h6 {
     outline: none !important;
     box-shadow: none !important;
     text-align: center;
-    border: 1px solid #ffc107;
+    border: 1px solid #f0e9ff;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
-    /*font-family: "Heebo", sans-serif;*/
+    /* font-family: "Heebo", sans-serif; */
     text-transform: uppercase;
-    transition: all 300ms linear 0s; }
+    transition: all 300ms linear 0s;
+     }
 
 .main_btn2 {
   display: inline-block;
@@ -3132,24 +3134,24 @@ h6 {
         display: none; } }
   .about-area .about-content h4 {
         font-size: 42px;
-    color: #ffc107;
+    color: #495057d4;
     font-family: 'Cairo', sans-serif;
     margin-bottom: 22px;
     line-height: 40px;
 
     }
   .about-area .about-content p {
-       font-size: 22px;
-    font-family: "Roboto", sans-serif;
-    color: #202e31;
+    font-size: 26px;
+    font-family: 'Amiri', serif;
+    color: #212529;
+    font-weight: bold;
     margin-bottom: 40px;
     text-align: right;
-    }
+    line-height: 1.6;
+}
     .about-area .about-content .main_btn{
       font-family: 'Cairo', sans-serif;
     }
-  .about-area .about-content .main_btn:hover {
-    border: 1px solid #f8b600; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -3546,4 +3548,23 @@ button:before{
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
+  }
+  .dropdown-menu{
+    position: absolute;
+    top: 73%;
+    left: 0!important;
+    z-index: 1000;
+    display: none;
+    /* float: left; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+     text-align: center; 
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
   }
