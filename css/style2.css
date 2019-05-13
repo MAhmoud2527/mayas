@@ -1175,7 +1175,7 @@ ul {
       .single-post-area .navigation-area .nav-left {
         margin-bottom: 30px; } }
   .single-post-area .navigation-area .nav-right {
-    text-align: right; }
+    text-align: left; }
     .single-post-area .navigation-area .nav-right .thumb {
       margin-left: 20px;
       background: #000; }
@@ -1335,7 +1335,7 @@ ul {
   color: #2a2a2a;
   text-align: center; }
 .form-contact{
-  text-align: right;
+  text-align: left;
 }
 .form-contact label {
   color: #f8b600;
@@ -3146,7 +3146,7 @@ h6 {
     color: #212529;
     font-weight: bold;
     margin-bottom: 40px;
-    text-align: right;
+    text-align: left;
     line-height: 1.6;
 }
     .about-area .about-content .main_btn{
