@@ -2234,8 +2234,8 @@ ul {
 ============================================================================================ */
 .hero-banner {
   position: relative;
-  padding: 70px 0;
-  background: #f6f6f6;
+  padding: 234px 0!important;
+  background: #99999994;
   background-size: cover; }
   @media (min-width: 768px) {
     .hero-banner {
@@ -2609,7 +2609,7 @@ ul {
     left: 10px;
     display: block;
     color: #fff;
-    background: #f8b600;
+    background: #888888;
     padding: 8px 15px;
     border-radius: 5px; }
     @media (min-width: 768px) {
@@ -2776,7 +2776,7 @@ ul {
   .blog-pagination .page-link i, .blog-pagination .page-link span {
     font-size: 13px; }
   .blog-pagination .page-link:hover {
-    background-color: #f8b600;
+    background-color: #999999;
     color: #fff; }
 
 .blog-pagination .page-item.active .page-link {
@@ -2788,6 +2788,9 @@ ul {
   margin-right: 0; }
 
 /*============ Start Blog Single Styles  =============*/
+.blog_details {
+  background-color: #dee2e6!important;
+}
 .single-post-area .blog_details {
   box-shadow: none;
   padding: 0; }
@@ -3220,7 +3223,11 @@ ul {
   color: #202e31; }
 
 .title_color {
-  color: #202e31; }
+  text-align: right;
+  color: #202e31; 
+  font-size: 40px;
+  padding: 0 20px;
+}
 
 .button-group-area {
   margin-top: 15px; }
@@ -3652,7 +3659,14 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #fff;
-  border-left: 2px solid #f8b600; }
+  border-right: 2px solid #f8b600; 
+  text-align: right;
+  font-family: 'Amiri', serif;
+  color: #212529;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 1.4;
+}
 
 @media (max-width: 991px) {
   .progress-table-wrap {
@@ -4837,7 +4851,7 @@ h6 {
     font-size: 30px;
     color: #202e31;
     font-family: 'Cairo';
-    margin-bottom: 25px;
+    margin: 52px 0;
     position: relative; }
   .area-heading p {
     font-size: 14px;
@@ -5350,4 +5364,7 @@ button {
   .dir{
     direction: ltr;
     position: relative;
+  }
+  .mt-2{
+    padding-top: 20px;
   }
