@@ -1,3 +1,17 @@
+window.onload = function () {
+    var lang = window.localStorage.getItem('lang');
+    if(lang != null){
+            changeLang(lang);
+    }
+}
+function changeLang(lang) {
+    window.localStorage.setItem("lang", lang);
+    if(lang == 'ar'){
+            document.getElementById('lnagLink').setAttribute('href', 'css/style.css');
+    }else if(lang == 'en'){
+            document.getElementById('lnagLink').setAttribute('href', 'css/style2.css');
+    }
+}
 ;(function($){
     "use strict"
 
