@@ -10,14 +10,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Changa" rel="stylesheet">
     <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
     <!-- End WOWSlider.com HEAD section -->
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Cairo|Changa" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-rtl.min.css"> -->
     <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" id="lnagLink">
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
@@ -53,15 +53,15 @@
                     <li class="nav-item"><a class="nav-link" href="project.html">ﻣﺸﺎﺭﻋﻨﺎ</a></li>    
                     <li class="nav-item"><a class="nav-link" href="blog.html">الاحداث</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">اﺗﺼﻞ ﺑﻨﺎ</a></li>
-                    <!-- <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fas fa-globe-europe"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Arabic</a>
-                      <a class="dropdown-item" href="#">English</a>
+                      <button class="dropdown-item" onclick="changeLang('ar')">Arabic</button>
+                  <button class="dropdown-item" onclick="changeLang('en')">English</button>
                     </div>
-                  </li> -->
+                  </li>
                 </ul>
             </div> 
         </div>
@@ -84,12 +84,12 @@
     <section class="Pioneer-area area-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-11">
-                    <p>The Pioneer of Outdoor Shopping Centers Development in Saudi Arabia</p>
-                </div>
             <div class="col-md-1">
                 <span><i class="fas fa-bookmark"></i></span>
             </div>
+                <div class="col-md-11">
+                    <p>The Pioneer of Outdoor Shopping Centers Development in Saudi Arabia</p>
+                </div>
             </div>
         </div>
     </section>
@@ -111,7 +111,7 @@
                     <h4>عن الشركة</h4>
                     <p>ﺗﻌﺪ اﻟﺸﺮﻛﺔ ﻣﻦ اﻟﺸﺮﻛﺎﺕ اﻟﻤﺘﻤﻴﺰﺓ ﻭﻣﺼﻨﻔﺔ ﺑﺈﺗﺒﺎﻋﻬﺎ ﺳﻴﺎﺳﺎﺕ ﻣﺪﺭﻭﺳﺔ ﻭاﺭﺗﻜﺰﺕ ﺗﻠﻚ اﻟﺴﻴﺎﺳﻴﺎﺕ ﻋﻠﻰ ﺃﺳﺲ ﻋﻤﻠﻴﺔ ﻭﺣﻠﻮﻝ ﻭاﻗﻌﻴﺔ ﻣﺪﺭﻭﺳﺔ ،ﻭﻗﺪ ﺗﻔﺮﺩﺕ اﻟﺸﺮﻛﺔ ﺑﻮﺟﻮﺩ ﻃﻤﻮﺡ ﻳﺘﻨﺎﻣﻲ ﺑﺸﻜﻞ ﻛﺒﻴﺮ ﻟﺘﺤﻘﻴﻖ اﻻﻧﺠﺎﺯاﺕ ﻭاﻟﻤﻀﻰ ﻓﻲ اﺳﺮاﺗﻴﺠﻴﺔ ﻋﻤﻞ ﻣﺮﻧﻪ ﺗﺴﻌﻰ ﻟﺘﺤﻘﻴﻖ اﻟﺮﻳﺎﺩﺓ اﻟﺸﺎﻣﻠﺔ ﻓﻲ ﺟﻤﻴﻊ ﻗﻄﺎﻋﺎﺕ اﻟﺸﺮﻛﺔ.</p>
 
-                    <a class="main_btn" href="#">المزيد</a>
+                    <!-- <a class="main_btn" href="#">المزيد</a> -->
 
                 </div>
             </div>
@@ -175,7 +175,7 @@
             </div>
 
         </div>
-        <div class="row read-more">
+        <div class="row">
 
             
             <div class="col-md-6 col-xl-3 padding-none">
@@ -383,7 +383,7 @@
 <!--================ End Blog Area =================-->
 
 <!--================ Start Testimonial Area =================-->
-<section class="testimonial-area area-padding" style="direction: ltr; position: relative;" >
+<section class="testimonial-area area-padding dir">
     <div class="overlay"></div>
     <div class="container">
      <div class="area-heading">
@@ -489,24 +489,24 @@
 
         <div class="col-lg-6 info2">
           <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
               <h3>Kingdom of Saudi Arabia P.O. Box 6695, Riyadh 13523</h3>
             </div>
-            <span class="contact-info__icon"><i class="ti-home"></i></span>
           </div>
           <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
               <h3><a href=" +966 11-000-0000"> +966 11-000-0000</a></h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
-            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
           </div>
           <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
               <h3><a href=" www.almayasholding.com.sa"> www.almayasholding.com.sa</a></h3>
               <p>Send us your query anytime!</p>
             </div>
-            <span class="contact-info__icon"><i class="ti-email"></i></span>
           </div>
         </div>
       </div>
