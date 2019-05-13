@@ -2341,7 +2341,7 @@ ul {
       position: relative;
       transition: all 300ms linear 0s; }
       .single-blog .meta-top a i {
-        margin-left: 10px; }
+        margin: 0 10px; }
       .single-blog .meta-top a:hover {
         color: #f8b600; }
       .single-blog .meta-top a:before {
