@@ -5396,15 +5396,15 @@ button {
 }
 
 /*********************** Demo - 13 *******************/
-.box13{position:relative;transition:all .2s ease-out 0s}
+.box13{position:relative;transition:all .2s ease-out 0s;    box-shadow: -6px 15px 8px 0px;}
 .box13 .box-content,.box13:after{position:absolute;left:20px;right:20px}
 .box13:after{content:"";display:block;background:#888888;top:20px;bottom:20px;opacity:0;transform:rotate3d(-1,1,0,100deg);transition:all .4s ease-in-out 0s}
 .box13:hover:after{opacity:.9;transform:rotate3d(0,0,0,0deg)}
 .box13 img{width:100%;height:auto}
 .box13 .box-content{top:45%;opacity:0;z-index:1;-webkit-transform:translate(10%,-30%);transform:translate(10%,-30%);transition:all .2s ease-out 0s}
 .box13:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
-.box13 .title{display:block;font-size:22px;font-weight:700;color:#f4f5f7;margin:0 0 10px}
-.box13 .post{display:block;font-size:16px;color:#ffc107;margin-bottom:20px}
+.box13 .title{display:block;font-size:22px;font-weight:700;color:#f4f5f7;margin:0 0 10px;    font-family: 'Amiri', serif;}
+.box13 .post{display:block;font-size:16px;color:#ffc107;margin-bottom:20px;    font-family: 'Amiri', serif;}
 .box13 .social{padding:0;margin:0;list-style:none}
 .box13 .social li{display:inline-block}
 .box13 .social li a{display:block;width:35px;height:35px;background:#eee;border-radius:50%;font-size:17px;color:#1b1462;line-height:35px;margin-right:5px;transition:all .4s ease-in-out 0s}
